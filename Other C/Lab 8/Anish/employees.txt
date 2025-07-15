@@ -1,0 +1,4 @@
+ID = 8
+Name = Anish
+Post = Manager
+Salary = 50000.00
