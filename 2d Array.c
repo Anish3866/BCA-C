@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 const int CITY = 2; const int WEEK = 7;
 int main()
 {
