@@ -4,7 +4,7 @@
 #include<conio.h>
 void main()
 {
-	int errorCode, gd=DETECT,gm;
+	int errorCode,gd=DETECT,gm;
 	detectgraph(&gd,&gm);
 	initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
 	errorCode=graphresult();
@@ -12,8 +12,9 @@ void main()
 	{
 		printf("\nGraphics Initialization Failed!!!");
 	}
-	setcolor(GREEN);
-	line(100,200,300,400);
+	setcolor(BLUE);
+	rectangle(0,0,100,200);
+	setbkcolor(WHITE);
 	getch();
 	closegraph();
 }
